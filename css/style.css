@@ -1,0 +1,74 @@
+body {
+ 	font-family: 'Open Sans', sans-serif;
+	background: #f0efef;
+}
+header {
+	background-color: #033048;
+}
+h1 {
+	font-size: 48px;
+	color: #fff;
+	font-weight: bolder;
+	margin: 0;
+	float: left;
+}
+nav {
+	font-size: 24px;
+}
+.nav-bar {
+	color: #f9e42e;
+	float: right;
+	text-decoration: none;
+}
+.container {
+	width: 960px;
+	margin: 0 auto;
+}
+section {
+	width: 700px;
+	float: left;
+	margin-right: 10px;
+}
+h2{
+	font-weight: 600;
+	font-size: 40px;
+	color: #121212;
+}
+aside{
+	width: 240px;
+	float: right;
+	margin-left: 10px;
+}
+h3 {
+	font-size: 32px;
+	font-weight: 800;
+}
+ul{
+
+	margin-left: 0;
+	padding: 0;
+}
+li {
+	padding-bottom: 12px;
+	font-weight: 200;
+	font-size: 24px;
+}
+.post-text::first-letter {
+	float: left;
+	font-size: 30px;
+}
+footer {
+	background-color: #121212;
+}
+footer p {
+	font-weight: 600;
+	font-size: 24px;
+	color: #fff;
+}
+.clearfix::after {
+	content: "";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	height: 0;
+}
