@@ -1,24 +1,37 @@
 body {
- 	font-family: 'Open Sans', sans-serif;
 	background: #f0efef;
+	font-weight: 300;
+	font-size: 24px;
+ 	font-family: 'Open Sans', sans-serif;
 }
 header {
 	background-color: #033048;
+	padding: 20px;
+	margin-bottom: 35px;
+}
+.logo {
+	padding: 20px;
+	text-align: center;
+	font-size: 48px;
+	font-weight: 800;
 }
 h1 {
-	font-size: 48px;
 	color: #fff;
-	font-weight: bolder;
 	margin: 0;
 	float: left;
 }
+.nav-div {
+	height: 75px;
+}
 nav {
 	font-size: 24px;
+	font-weight: 300;
 }
 .nav-bar {
 	color: #f9e42e;
 	float: right;
 	text-decoration: none;
+	margin: 35px 10px;
 }
 .container {
 	width: 960px;
@@ -29,10 +42,18 @@ section {
 	float: left;
 	margin-right: 10px;
 }
-h2{
+.read-more {
+	font-size: 24px;
+	font-weight: 600;
+	float: right;
+}
+h2 {
 	font-weight: 600;
 	font-size: 40px;
 	color: #121212;
+}
+.title-two {
+	margin-top: 90px;
 }
 aside{
 	width: 240px;
@@ -43,6 +64,13 @@ h3 {
 	font-size: 32px;
 	font-weight: 800;
 }
+.clearfix::after {
+	content: "";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	height: 0;
+}
 ul{
 
 	margin-left: 0;
@@ -50,25 +78,58 @@ ul{
 }
 li {
 	padding-bottom: 12px;
-	font-weight: 200;
+	font-weight: 300;
 	font-size: 24px;
+}
+.description {
+	font-size: 22px;
+	font-weight: 300;
 }
 .post-text::first-letter {
 	float: left;
 	font-size: 30px;
 }
+.block-quote {
+	color: #fff;
+	background-image: url("../images/testimonial_bg.jpg");
+	text-align: center;
+
+}
+blockquote {
+	font-weight: 300, italic;
+	font-size: 28px;
+	width: 100%;
+}
+strong {
+	font-weight: 600;
+	font-size: 24px;
+}
+.sign-up-bar {
+	height: 100px;
+	background-color: #f9e42e
+}
+.sign-up {
+	color: #fff;
+	background-color: #033048;
+	font-weight: 800;
+	font-size: 28px;
+	border-radius: 5px;
+	text-decoration: none;
+	padding: 15px 80px;
+}
 footer {
 	background-color: #121212;
 }
-footer p {
-	font-weight: 600;
-	font-size: 24px;
-	color: #fff;
+h4 {
+	color: #f9e42e;
 }
-.clearfix::after {
-	content: "";
-	display: block;
-	clear: both;
-	visibility: hidden;
-	height: 0;
+.copyright{
+	font-size: 18px;
+	font-weight: 600;
+	color: #fff;
+	text-align: center;
+	padding-bottom: 20px;
+}
+.bottomlogo {
+	margin-left: 50%;
 }
